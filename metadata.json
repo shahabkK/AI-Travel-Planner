@@ -1,0 +1,6 @@
+{
+  "name": "TripGenius AI",
+  "description": "TripGenius AI – Your Smart AI Travel Planner. Generate complete personalized itineraries, budget breakdowns, packing lists, hotel & food recommendations, interactive maps, weather forecasts, and AI travel assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
