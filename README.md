@@ -1,57 +1,87 @@
 # 🌍 AI Travel Planner
 
-An AI-powered travel planning web application that helps users create personalized travel plans in seconds. Instead of searching multiple websites for hotels, attractions, budgets, and packing lists, AI Travel Planner generates everything in one place.
+An AI-powered travel planning web application that creates personalized travel itineraries based on a user's destination, budget, trip duration, and travel preferences. The application helps travelers save time by generating complete travel plans, including hotel suggestions, attractions, packing lists, and budget estimates.
 
 ---
 
-## 📌 Problem Statement
+# 📖 Project Overview
 
-Planning a trip can be stressful and time-consuming. Travelers often need to search different websites for hotels, tourist attractions, transportation, weather, and travel budgets.
+Planning a trip often requires visiting multiple websites to find hotels, attractions, transportation, and budget information. This process can be time-consuming and confusing.
 
-**AI Travel Planner** solves this problem by using Artificial Intelligence to generate a complete travel plan based on the user's destination, budget, travel duration, and interests.
+**AI Travel Planner** solves this problem by providing everything in one application. Users simply enter their travel details, and the AI generates a personalized travel plan in seconds.
 
 This application is designed for:
-- Students
-- Families
-- Solo Travelers
-- Couples
-- Business Travelers
-- Tourists
+
+- 🎓 Students
+- 👨‍👩‍👧 Families
+- 👤 Solo Travelers
+- 💑 Couples
+- 💼 Business Travelers
+- 🌎 Tourists
 
 ---
 
-## 🚀 Live Demo
+# 🚀 Live Demo
 
-**Live Website:**  
+**Live Website**
+
 https://ai-travel-planner-shahab5.vercel.app
 
-## ✨ Features
+> Replace the above URL with your deployed Vercel link.
 
-- 🔐 User Authentication (Login & Register)
-- 🌍 Select travel destination
-- 💰 Enter travel budget
-- 📅 Choose trip duration
-- 👨‍👩‍👧 Select travel type (Solo, Couple, Family, Friends)
-- 🤖 AI-generated personalized travel itinerary
-- 🏨 Hotel recommendations
-- 🗺️ Tourist attraction suggestions
-- 🍽️ Restaurant recommendations
-- 💵 Budget breakdown
-- 🎒 AI-generated packing checklist
-- 🌦️ Weather information
-- 💱 Currency conversion
-- 💾 Save travel plans
-- 📄 Export itinerary as PDF
-- 🌙 Dark & Light Mode
-- 📱 Responsive design for desktop and mobile
+---
+
+# ✨ Features
+
+## User Features
+
+- User Login & Registration
+- Secure Authentication
+- Personalized Dashboard
+- Create New Trip
+- Save Trip History
+- View Previous Trips
+
+---
+
+## Travel Planning
+
+- Select Destination
+- Choose Budget
+- Select Trip Duration
+- Choose Travel Type
+- Select Interests
+
+---
+
+## AI Features
+
+- AI Travel Itinerary Generator
+- AI Budget Planner
+- AI Hotel Recommendations
+- AI Tourist Attraction Suggestions
+- AI Restaurant Recommendations
+- AI Packing Checklist
+- AI Travel Tips
+- AI Local Information
+
+---
+
+## Additional Features
+
+- Currency Converter
+- Export Itinerary as PDF
+- Responsive Design
+- Dark Mode
+- Mobile Friendly Interface
 
 ---
 
 # 🤖 AI Feature
 
-The application includes an AI Travel Planner that generates personalized travel plans based on the user's preferences.
+The application uses Artificial Intelligence to generate personalized travel plans.
 
-The AI considers:
+The AI analyzes:
 
 - Destination
 - Budget
@@ -59,14 +89,14 @@ The AI considers:
 - Travel Type
 - User Interests
 
-The AI then generates:
+Then it creates:
 
-- Travel Summary
+- Trip Overview
 - Daily Itinerary
 - Hotel Suggestions
 - Tourist Attractions
-- Restaurant Recommendations
-- Budget Plan
+- Restaurants
+- Budget Breakdown
 - Packing Checklist
 - Travel Tips
 
@@ -75,72 +105,53 @@ The AI then generates:
 # 🧠 AI System Prompt
 
 ```
-You are TripGenius AI, an intelligent travel planner.
+You are TripGenius AI, an intelligent travel planning assistant.
 
-Your job is to create personalized travel plans.
+Your goal is to help users plan enjoyable and affordable trips.
 
-When generating responses:
+Instructions:
 
-• Recommend the best itinerary.
-• Stay within the user's budget.
-• Suggest hotels with estimated prices.
-• Recommend tourist attractions.
-• Recommend restaurants.
-• Suggest transportation options.
-• Generate a packing checklist.
-• Include travel safety tips.
-• Mention local customs when appropriate.
-• Organize the response into clear sections.
-• Keep the response friendly, informative, and easy to understand.
+1. Generate a personalized itinerary.
+2. Stay within the user's budget.
+3. Recommend hotels with estimated prices.
+4. Suggest popular attractions.
+5. Recommend restaurants.
+6. Suggest transportation methods.
+7. Create a packing checklist.
+8. Provide travel safety tips.
+9. Mention local customs if relevant.
+10. Keep responses organized into sections.
+11. Write in a friendly and easy-to-understand style.
+12. Never recommend dangerous or unsafe activities.
 ```
 
 ---
 
 # 🛠️ Technologies Used
 
-## Frontend
+### Frontend
 
 - React
 - TypeScript
 - Vite
 - Tailwind CSS
 
-## Backend
+### Backend
 
 - Node.js
-- Express
+- Express.js
 
-## AI
+### Artificial Intelligence
 
 - Google Gemini API
 
-## Deployment
+### Deployment
 
 - Vercel
 
-## Version Control
+### Version Control
 
 - GitHub
-
----
-
-# 📸 Screenshots
-
-## Home Page
-
-(home svcreen)
-
----
-
-## Create Trip
-
-(trap screen)
-
----
-
-## AI Generated Itinerary
-
-(generate the trap plan screen )
 
 ---
 
@@ -148,20 +159,47 @@ When generating responses:
 
 ```
 AI-Travel-Planner/
-
-│── src/
-│── public/
-│── components/
-│── lib/
-│── package.json
-│── README.md
-│── vite.config.ts
-│── tsconfig.json
+│
+├── public/
+├── src/
+│   ├── components/
+│   ├── lib/
+│   ├── data/
+│   ├── App.tsx
+│   ├── main.tsx
+│
+├── package.json
+├── README.md
+├── vite.config.ts
+├── tsconfig.json
+└── .env.example
 ```
 
 ---
 
-# ⚙️ Installation
+# 📸 Screenshots
+
+## Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## Create Trip
+
+![Create Trip](screenshots/create-trip.png)
+
+---
+
+## AI Generated Itinerary
+
+![AI Itinerary](screenshots/itinerary.png)
+
+> Create a folder named **screenshots** in your repository and place your screenshots there.
+
+---
+
+# ⚙️ Installation Guide
 
 Clone the repository
 
@@ -169,7 +207,7 @@ Clone the repository
 git clone https://github.com/shahabkK/AI-Travel-Planner.git
 ```
 
-Open the project
+Move into the project
 
 ```bash
 cd AI-Travel-Planner
@@ -181,7 +219,7 @@ Install dependencies
 npm install
 ```
 
-Run the development server
+Run development server
 
 ```bash
 npm run dev
@@ -197,7 +235,7 @@ npm run build
 
 # 🔑 Environment Variables
 
-Create a `.env` file and add your API keys.
+Create a `.env` file in the root directory.
 
 Example:
 
@@ -205,19 +243,28 @@ Example:
 GEMINI_API_KEY=YOUR_API_KEY
 ```
 
-⚠️ Never upload your API keys to GitHub.
+**Important:** Never upload API keys to GitHub.
 
 ---
 
-# 📈 Future Improvements
+# 💡 Future Improvements
 
 - Google Maps Integration
-- Flight Price Comparison
+- Flight Booking Integration
 - Real-Time Weather Updates
-- Multi-language Support
 - AI Voice Assistant
-- Expense Tracker
+- Multi-language Support
 - Offline Travel Plans
+- Expense Tracker
+- Travel Expense Analytics
+
+---
+
+# 🎯 Problem Solved
+
+Planning trips usually requires searching multiple websites for hotels, attractions, transportation, and budgets.
+
+AI Travel Planner brings everything together in one place using Artificial Intelligence, making travel planning faster, easier, and more personalized.
 
 ---
 
@@ -225,17 +272,18 @@ GEMINI_API_KEY=YOUR_API_KEY
 
 **Shahab Amjad**
 
-GitHub:
-https://github.com/shahabkK
+GitHub: https://github.com/shahabkK
 
 ---
 
 # 📄 License
 
-This project was developed for educational purposes as the Final Project for the AI App Development course.
+This project was developed as the Final Project for the AI App Development course.
+
+It is intended for educational purposes only.
 
 ---
 
-# ⭐ Acknowledgements
+# 🙏 Acknowledgements
 
-Special thanks to the course instructors and the AI development community for providing guidance and learning resources throughout this project.
+Special thanks to the instructors, mentors, and the open-source community for their valuable guidance and resources that supported the development of this project.
