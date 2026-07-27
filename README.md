@@ -173,28 +173,19 @@ AI-Travel-Planner/
 ├── vite.config.ts
 ├── tsconfig.json
 └── .env.example
-```
+`## Screenshots
 
----
+### Home Page
 
-# 📸 Screenshots
+![Home](./screenshots/home.png)
 
-## Home Page
+### Trip Planner
 
-![Home Page](screenshots/home.png)
+![Trip Planner](./screenshots/planner.png)
 
----
+### Dashboard
 
-## Create Trip
-
-![Create Trip](screenshots/create-trip.png)
-
----
-
-## AI Generated Itinerary
-
-![AI Itinerary](screenshots/itinerary.png)
-
+![Dashboard](./screenshots/dashboard.png)
 > Create a folder named **screenshots** in your repository and place your screenshots there.
 
 ---
